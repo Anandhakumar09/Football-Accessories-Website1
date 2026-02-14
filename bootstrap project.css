@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.anandh-img{
+    height: 100%;
+    object-fit: cover;
+
+}
+.anandh{
+    height: 633px;
+}
+.container img:hover{
+    transform:scale(1.1);
+}
+.container-fluid img:hover{
+    transform:scale(1.1) ;
+}
+.title p{
+     font-family: "Playwrite US Modern", cursive;
+}
+.para p{
+     font-family: "Dancing Script", cursive;
+}
+.nav1 a{
+     font-family: "Playwrite US Modern", cursive;
+}
+.banners{
+    height: 500px;
+    width: 100%;
+    color: white;
+    text-align: start;
+    padding-top: 150px;
+    padding-left: 30px;
+    background-size: cover;
+    display: flex;
+    background-image: url(https://www.shutterstock.com/image-vector/lights-night-stadium-blur-sport-600nw-691558078.jpg);
+}
+.ban{
+    padding-left: 40px;
+}
+.logo1 img{
+    height: 200px;
+    width: 200px;
+
+}
+ul li{
+    list-style: none;
+    margin-top: 10px;
+    color: black;
+}
+ul a{
+    text-decoration: none;
+}
+.foot p{
+    text-align: center;
+    height: 35px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.iicon i{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.messi img{
+    height: 300px;
+    width: 300px;
+}
+.card-body p{
+    font-family: "Dancing Script", cursive;
+}
+
+
+.ap{
+    background-image: url(../1st/1st.jpeg);
+    background-size: cover;
+}
+
+
+
+/* =========================
+   MOBILE – SINGLE COLUMN
+   0px to 1000px
+   ========================= */
+@media (max-width: 1000px){
+
+    /* All footer columns one below another */
+    .container-fluid .row > div{
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+        text-align: center;
+    }
+
+    /* Remove ul default padding */
+    .container-fluid ul{
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+    .container-fluid ul li{
+        list-style: none;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    /* Center logo */
+    .logo1 img{
+        display: block;
+        margin: auto;
+        max-width: 150px;
+    }
+
+    /* Social icons center */
+    .iicon{
+        text-align: center;
+    }
+
+    .iicon i{
+        font-size: 22px;
+        margin: 6px;
+    }
+
+    /* Footer text */
+    .foot p{
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
